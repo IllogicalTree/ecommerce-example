@@ -57,7 +57,7 @@ data "ibm_app_domain_shared" "domain" {
 resource "ibm_app_route" "route" {
   domain_guid = data.ibm_app_domain_shared.domain.id
   space_guid  = data.ibm_space.spacedata.id
-  host        = "product-api"
+  host        = "awesome-product-api"
 }
 
 // Spin up 1 instance of the app

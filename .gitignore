@@ -3,3 +3,6 @@
 *.tfstate
 *.tfstate.*
 terraform.tfvars
+
+backend/node_modules
+backend/vcap-local.iam.json

@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cloudant/cloudant": "^4.5.1",
+    "@ibm-cloud/cloudant": "^0.0.19",
+    "cfenv": "^1.2.4",
     "express": "^4.17.1"
   }
 }
