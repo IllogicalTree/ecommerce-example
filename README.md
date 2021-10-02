@@ -10,7 +10,7 @@ Vue frontend planned
 
 ## Usage
 
-WIP
+Docs WIP
 
 Install ibmcloud cli tools to get an api key (or via web interface)
 
@@ -38,7 +38,9 @@ If you are done with the project, you can use this to cleanup everything previou
 terraform destroy
 ```
 
+TODO add frontend deployment to terraform script
+
 ## Known issues
 
 - Running terraform destroy fails to remove the Cloudant database instance, this will need to be removed manually until the issue has been resolved.
-- Requires zip to be installed,
+- Requires zip to be installed, so will probably want to run on linux

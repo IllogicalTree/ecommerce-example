@@ -1,9 +1,11 @@
 const express = require("express");
-const app = express();
+const cors = require('cors')
 const seedDatabase = require("./seed.js");
 const mydb = require("./cloudant.js");
 
+const app = express();
 app.use(express.json());
+app.use(cors())
 
 seedDatabase();
 
